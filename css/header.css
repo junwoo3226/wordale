@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.meun-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.meun-title {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+
+.meun-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meun-icons img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}

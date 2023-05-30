@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 5px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--border-color);
+  border-radius: 5px;
+  width: 45px;
+  height: 60px;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.row-special {
+  width: 75px;
+}
